@@ -1,0 +1,92 @@
+body{
+   background-size: 100%;
+}
+#listamenu{
+    float: left;
+}
+
+@font-face{
+    font-family: br;
+    src: url(../font/BadScript-Regular.ttf);
+
+}
+@font-face{
+    font-family: b;
+    src: url(../font/GreatVibes-Regular.ttf);
+
+}
+header{
+    width: 1200px;
+    height: 200px;
+    background:white;
+    margin: auto;
+    margin-top: 100px;
+}
+#exa01{
+    padding: 3%;
+    font-size: 2.2em;
+    font-family: b;
+    color: blue;
+}
+
+#logo{
+    float: left;
+}
+
+.cont{
+   
+    width: 1200px;
+    
+    background: yellowgreen;
+    margin: auto;
+    
+}
+.cont1{
+    float: left;
+    width: 20%;
+    height: 100px;
+    background-color: blue;
+    border: 0;
+    color: white;
+    font-family: br;
+    font-size: 2em;
+    
+}
+aside{
+    
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    background: white;
+    padding-top: 10%;
+}
+
+#bienvenido{
+    font-family: br;
+    color: red;
+    text-align: center;
+    font-size: 4em;
+
+}
+.Titulo{
+    font-family: b;
+    color: blue;
+}
+#labcli{
+    font-family: br;
+
+
+}
+#tablareportes{
+    
+
+    background: white;
+    
+}
+th, td {
+    width: 10%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-spacing: 0;
+}

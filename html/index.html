@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body background="../images/car.jpg">
+    
+<header id="hid" >
+    <img id="logo" src="../images/logoexa.png" alt="">
+    <h1 id="exa01">Sistema de Ventas - Exa01</h1>
+    <hr color="blue" >
+</header>
+
+<nav>
+    <div class="cont"><input type="submit" class="cont1" onclick="inicio()" value="Inicio"></div>
+    <div class="cont"><input type="submit" class="cont1" onclick="ventas()" value="Ventas"></div>
+    <div class="cont"><input type="submit" class="cont1" onclick="reportes()" value="Reportes"></div>
+    <div class="cont"><input type="submit" class="cont1" onclick="clientes()" value="Clientes"></div>
+    <div class="cont"><input type="submit" class="cont1" onclick="productos()" value="Productos"></div>
+</nav>
+  
+
+<aside>
+    <div id="inicio">
+        <h1 id="bienvenido"> Bienvenido al Sistema de Ventas</h1>
+    </div>
+
+    <div id="ventas">
+        <h1 class="Titulo">Ventas</h1>  
+        <hr color="blue" >
+        <label for="" id="labcli">Cliente</label>
+        <input type="text" id="clientecaja" placeholder="Cliente...">
+        <input type="submit"id = "lupa" value="lupa">
+        <br>
+        <input type="submit" id="carritopro" value="carrito" >
+        <input type="text" id="productocaja" placeholder="Producto...">
+        <input type="text" id="preciocaja" placeholder="Precio...">
+        <input type="text" id="cantidadcaja" placeholder="Cantidad...">
+        <br>
+        <input type="submit" id="enviar" value="Enviar" onclick="Enviar()">
+
+    </div >
+    
+    <div id="reportes">
+        <h1 class="Titulo">Reportes</h1>  
+        <hr color="blue" >
+
+        <table id="tablareportes">
+                 
+        
+               
+                <tr>
+                    
+                    <th>Venta</th>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                    <th>Accion</th>
+                    
+                </tr>
+                <tr>
+                        <td >V001</td>
+                        <td >Mouse</td>
+                        <td >250</td>
+                        <td>10</td>
+                        <td>250</td>
+                        <td ><input type="button" value=""></td>
+
+
+                </tr>
+                <tr>
+                        <td >V002</td>
+                        <td >Teclado</td>
+                        <td >50</td>
+                        <td>10</td>
+                        <td>500</td>
+                        <td ><input type="button" value=""></td>
+
+                </tr>
+                <tr>
+                        <td >V003</td>
+                        <td >Parlantes</td>
+                        <td >200</td>
+                        <td>5</td>
+                        <td>1000</td>
+                        <td ><input type="button" value=""></td>
+
+                </tr>
+                <tr>
+                        <td >V004</td>
+                        <td >Impresora</td>
+                        <td >700</td>
+                        <td>2</td>
+                        <td>1400</td>
+                        <td ><input type="button" value=""></td>
+
+                </tr>
+
+                </table>
+
+    </div>
+
+    <div id="clientes">
+
+        <h1 class="Titulo">Clientes</h1>    
+        <hr color="blue" >
+            <table id="tablaclientes">
+                        
+                    <tr>
+                        
+                        <th>Codigo</th>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>DNI</th>
+                        <th>Accion</th>
+                        
+                    </tr>
+                    <tr>
+                            <td >C001</td>
+                            <td >Daviv</td>
+                            <td >Reyna</td>
+                            <td>33261202</td>
+                            <td ><input type="button" value=""></td>
+
+
+                    </tr>
+                    <tr>
+                            <td >C002</td>
+                            <td >Keyla</td>
+                            <td >De La Cruz</td>
+                            <td>38434838</td>
+                            <td ><input type="button" value=""></td>
+
+                    </tr>
+                    <tr>
+                            <td >C003</td>
+                            <td >Rolando</td>
+                            <td >Jimanez</td>
+                            <td>434934473</td>
+                            <td ><input type="button" value=""></td>
+
+                    </tr>
+                    <tr>
+                            <td >C004</td>
+                            <td >Lucas</td>
+                            <td >Ayala</td>
+                            <td>43942934</td>
+                            <td ><input type="button" value=""></td>
+
+                    </tr>
+
+
+ </table>
+
+    </div>
+
+    <div id="productos">
+            <h1 class="Titulo">Productos</h1> 
+            <hr color="blue" > 
+            <table id="tablaproductos">
+                        
+                    <tr>
+                        
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Stock</th>
+                        <th>Accion</th>
+                        
+                    </tr>
+                    <tr>
+                            <td >P001</td>
+                            <td >Mouse</td>
+                            <td >25</td>
+                            <td>20</td>
+                            <td ><input type="button" value=""></td>
+
+
+                    </tr>
+                    <tr>
+                            <td >P002</td>
+                            <td >Teclado</td>
+                            <td >50</td>
+                            <td>30</td>
+                            <td ><input type="button" value=""></td>
+
+                    </tr>
+                    <tr>
+                            <td >P003</td>
+                            <td >Parlantes</td>
+                            <td >200</td>
+                            <td>20</td>
+                            <td ><input type="button" value=""></td>
+
+                    </tr>
+                    <tr>
+                            <td >P004</td>
+                            <td >Impresora</td>
+                            <td >700</td>
+                            <td>20</td>
+                            <td ><input type="button" value=""></td>
+
+                    </tr>
+
+    </div>
+
+
+</aside>
+
+
+    
+
+
+
+<script src="../js/javascript.js"></script>
+</body>
+</html>
